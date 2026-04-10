@@ -8,7 +8,6 @@
 body {
     height: 100vh;
 
-    /* Fundo mais escuro embaixo */
     background: linear-gradient(
         to top,
         #020617,
@@ -91,7 +90,7 @@ h1 {
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
 }
 
-/* 🔥 Instagram com efeito especial (BRILHO SUAVE) */
+/* 🔥 Instagram */
 .btn:nth-child(2):hover {
     transform: scale(1.1) rotate(3deg);
     
@@ -102,6 +101,19 @@ h1 {
         0 0 6px #ff0066,
         0 0 12px #cc00ff,
         0 0 18px #ff66cc;
+}
+
+/* 🔵 LinkedIn */
+.btn:nth-child(3):hover {
+    transform: scale(1.1) rotate(3deg);
+    
+    background: #0a66c2;
+    color: white;
+
+    box-shadow: 
+        0 0 6px #0a66c2,
+        0 0 12px #0a66c2,
+        0 0 18px #4da3ff;
 }
 
 /* Responsivo */
